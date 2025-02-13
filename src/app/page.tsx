@@ -1,3 +1,4 @@
+"use client";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -9,13 +10,15 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
+import MyComponent  from "./sendMessageToMe";
 import { Metadata } from "next";
+// import React, { useEffect } from 'react';
 
-export const metadata: Metadata = {
-  title: "Racx Software Development LLC",
-  description: "This is Home for Racx",
-  // other metadata
-};
+// export const metadata: Metadata = {
+//   title: "Racx Software Development LLC",
+//   description: "This is Home for Racx",
+//   // other metadata
+// };
 
 export default function Home() {
   return (
@@ -28,6 +31,7 @@ export default function Home() {
       <AboutSectionOne />
       <AboutSectionTwo />
       {/* <Pricing /> */}
+      <MyComponent/>
       <Blog />
       <Testimonials />
       <Contact />
