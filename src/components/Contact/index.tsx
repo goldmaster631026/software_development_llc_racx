@@ -1,6 +1,7 @@
 // import NewsLatterBox from "./NewsLatterBox";
 'use client';
 import { useState } from 'react';
+import { NextResponse } from 'next/server';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -14,13 +15,15 @@ const Contact = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ name, email, message }),
+      body: JSON.stringify({ name, email, message   }),
     });
     if (response.ok) {
       alert('Message sent successfully');
+      
       setName('');
       setEmail('');
       setMessage('');
+
     } else {
       alert('Error sending message');
     }

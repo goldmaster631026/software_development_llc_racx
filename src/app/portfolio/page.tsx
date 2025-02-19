@@ -36,7 +36,7 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Produts"
+          title="Our Products"
           paragraph=" Understand that we can't showcase every product throughout our entire career, but we are committed to helping you discover the perfect solution for your success with us. Explore our offerings and find the ideal fit for your needs! "
           center
         />
@@ -45,6 +45,7 @@ const Blog = () => {
           {blogPortfolioData.map((blog) => (
             <div key={blog.id} className="w-full">
               <SingleBlog_portfolio blog={blog} />
+              
             </div>
           ))}
         </div>

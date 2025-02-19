@@ -12,14 +12,6 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import MyComponent  from "./sendMessageToMe";
 import { Metadata } from "next";
-// import React, { useEffect } from 'react';
-// reference sendMessageToMe
-
-// export const metadata: Metadata = {
-//   title: "Racx Software Development LLC",
-//   description: "This is Home for Racx",
-//   // other metadata
-// };
 
 export default function Home() {
   return (

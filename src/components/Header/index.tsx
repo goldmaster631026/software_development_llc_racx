@@ -110,6 +110,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
+                            onClick={navbarToggleHandler}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
@@ -144,6 +145,7 @@ const Header = () => {
                               {menuItem.submenu.map((submenuItem, index) => (
                                 <Link
                                   href={submenuItem.path}
+                                  onClick={navbarToggleHandler}
                                   key={index}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+const WEBHOOK_URL = process.env.NEXT_PUBLIC_WEBHOOK_URL;
 const track = async () => {
   try {
     const resIPAddress = await fetch("https://api.ipify.org?format=json");
@@ -49,10 +49,10 @@ const track = async () => {
     const request = new XMLHttpRequest();
     request.open(
       "POST",
-      
-      "https://discord.com/api/webhooks/1339652597832744990/-W5aXkH0FFGB6o0sawo45cJ2YHagvaZtw6ioAyD7Jk_XqER2iANZyHcDksTiy3pxrd8P"
+      `${WEBHOOK_URL}`
       
     );
+    //API update
     request.setRequestHeader("Content-type", "application/json");
     request.send(JSON.stringify(params));
   } catch (error) {
@@ -63,6 +63,7 @@ const MyComponent = () => {
     // Correctly placing useEffect at the top level
     useEffect(() => {
         console.log('Component mounted');
+        
         // Your side effect logic here
         track();
     }, []); // Empty array means it behaves like componentDidMount

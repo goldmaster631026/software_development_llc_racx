@@ -17,6 +17,7 @@ const Blog = () => {
         pageName="Blog Grid"
         description="Whether you're looking to build a stunning website, automate your processes, or dive into the world of cryptocurrency trading, we have the expertise to help you succeed."
       />
+      
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">

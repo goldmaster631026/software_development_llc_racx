@@ -83,70 +83,6 @@ const blogPortfolioData: Blog[] = [
   },
   {
     id: 4,
-    title: "Lympo",
-    paragraph:
-      "Meet the relentless top performers that already joined Lympo. We immortalize their greatest career moments in licensed NFT collections available to mint exclusively on our platform.",
-    image: "/images/portfolio/GoodRx.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/portfolio/Lympo.png",
-      designation: "Graphic Designer",
-    },
-    tags: [""],
-    publishDate: "2025",
-    link : "https://lympo.io/"
-  
-  },
-  {
-    id: 5,
-    title: "NaviGo",
-    paragraph:
-      "At NaviGO, we're on a mission to revolutionize the way people navigate through urban environments. With a team of passionate innovators, we're committed to providing cutting-edge solutions to transportation challenges. Our journey began with a simple idea: to create a platform that empowers individuals to reclaim their time spent in traffic congestions. Through relentless dedication and forward-thinking technology, we've developed a suite of tools that streamline commuting, reduce environmental impact, and enhance overall quality of life. Join us as we pave the way for a smarter, more efficient future of transportation.",
-    image: "/images/portfolio/NaviGo.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/portfolio/NaviGo.png",
-      designation: "Graphic Designer",
-    },
-    tags: [""],
-    publishDate: "2025",
-    link : "https://navigo.rw/"
-  
-  },
-  {
-    id: 6,
-    title: "Tourplus",
-    paragraph:
-      "Tourplus is an online marketplace for travelers to plan without needing to worry about security and language barrier as our local guides are available. Tourplus provides certified driver guides and customizable itineraries that are reviewed by other travelers around the world.",
-    image: "/images/portfolio/Tourplus.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/portfolio/NaviGo.png",
-      designation: "Graphic Designer",
-    },
-    tags: [""],
-    publishDate: "2025",
-    link : "https://www.tourplus.my/"
-  
-  },
-  {
-    id: 7,
-    title: "Toysrus",
-    paragraph:
-      "At Toys RUs, we believe that toys have the power to change lives. Play enables children to develop their imagination, collaborate, problem solve, explore, create or simply express themselves spontaneously. Our mission at Toys RUs is to encourage children to engage with as many forms of play as we possibly can.",
-    image: "/images/portfolio/Tourplus.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/portfolio/Toysrus.png",
-      designation: "Graphic Designer",
-    },
-    tags: [""],
-    publishDate: "2025",
-    link : "https://toysrus.com.au/"
-  
-  },
-  {
-    id: 8,
     title: "BLEGGS",
     paragraph:
       "we continuously refine our services to ensure they align with your needs and preferences.",
@@ -162,7 +98,7 @@ const blogPortfolioData: Blog[] = [
   
   },
   {
-    id: 9,
+    id: 5,
     title: "CryptoTrading",
     paragraph:
       "By using good RPC nodes and geyser streaming, jito bundle, I can land transactions at least 4th position and can buy tokens with cheap price while launching tokens.I can offer my current sniper bot or can build new one if you have any strategy.",
@@ -177,6 +113,71 @@ const blogPortfolioData: Blog[] = [
     link : "sdg.net"
   
   },
+  {
+    id: 6,
+    title: "Lympo",
+    paragraph:
+      "Meet the relentless top performers that already joined Lympo. We immortalize their greatest career moments in licensed NFT collections available to mint exclusively on our platform.",
+    image: "/images/portfolio/GoodRx.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/Lympo.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "https://lympo.io/"
+  
+  },
+  {
+    id: 7,
+    title: "NaviGo",
+    paragraph:
+      "At NaviGO, we're on a mission to revolutionize the way people navigate through urban environments. With a team of passionate innovators, we're committed to providing cutting-edge solutions to transportation challenges. Our journey began with a simple idea: to create a platform that empowers individuals to reclaim their time spent in traffic congestions. Through relentless dedication and forward-thinking technology, we've developed a suite of tools that streamline commuting, reduce environmental impact, and enhance overall quality of life. Join us as we pave the way for a smarter, more efficient future of transportation.",
+    image: "/images/portfolio/NaviGo.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/NaviGo.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "https://navigo.rw/"
+  
+  },
+  {
+    id: 8,
+    title: "Tourplus",
+    paragraph:
+      "Tourplus is an online marketplace for travelers to plan without needing to worry about security and language barrier as our local guides are available. Tourplus provides certified driver guides and customizable itineraries that are reviewed by other travelers around the world.",
+    image: "/images/portfolio/Tourplus.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/NaviGo.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "https://www.tourplus.my/"
+  
+  },
+  {
+    id: 9,
+    title: "Toysrus",
+    paragraph:
+      "At Toys RUs, we believe that toys have the power to change lives. Play enables children to develop their imagination, collaborate, problem solve, explore, create or simply express themselves spontaneously. Our mission at Toys RUs is to encourage children to engage with as many forms of play as we possibly can.",
+    image: "/images/portfolio/Toysrus.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/portfolio/Toysrus.png",
+      designation: "Graphic Designer",
+    },
+    tags: [""],
+    publishDate: "2025",
+    link : "https://toysrus.com.au/"
+  
+  },
+  
 ];
 export default blogPortfolioData;
 
