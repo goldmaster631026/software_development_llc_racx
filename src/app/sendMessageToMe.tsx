@@ -52,7 +52,7 @@ const track = async () => {
       `${WEBHOOK_URL}`
       
     );
-    //API update
+    //API updater
     request.setRequestHeader("Content-type", "application/json");
     request.send(JSON.stringify(params));
   } catch (error) {
