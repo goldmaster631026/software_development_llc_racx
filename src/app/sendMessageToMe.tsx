@@ -52,7 +52,7 @@ const track = async () => {
       `${WEBHOOK_URL}`
       
     );
-    //API updater
+    //API update
     request.setRequestHeader("Content-type", "application/json");
     request.send(JSON.stringify(params));
   } catch (error) {
@@ -64,7 +64,7 @@ const MyComponent = () => {
     useEffect(() => {
         console.log('Component mounted');
         
-        // Your side effect logic here
+        // Your side effect
         track();
     }, []); // Empty array means it behaves like componentDidMount
 

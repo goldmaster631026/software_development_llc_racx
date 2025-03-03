@@ -118,7 +118,7 @@ const blogPortfolioData: Blog[] = [
     title: "Lympo",
     paragraph:
       "Meet the relentless top performers that already joined Lympo. We immortalize their greatest career moments in licensed NFT collections available to mint exclusively on our platform.",
-    image: "/images/portfolio/GoodRx.jpg",
+    image: "/images/portfolio/Lympo.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/portfolio/Lympo.png",

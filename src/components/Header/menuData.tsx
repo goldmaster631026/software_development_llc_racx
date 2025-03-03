@@ -86,6 +86,13 @@ const menuData: Menu[] = [
     path: "/portfolio",
     newTab: false,
   },
+  {
+    id: 6,
+    title: "AI Agent",
+    path: "/aiagent",
+    newTab: false,
+  },
+
   //   id: 5,
   //   title: "Portfolio",
   //   path: "/portfolio",
